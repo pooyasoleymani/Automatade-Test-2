@@ -18,25 +18,25 @@ This repository contains a Cypress test suite for testing the signup functionali
 2. **Install dependencies:**
    ```sh
    npm init
-   
+   ```
    ```sh
    npm install cypress --save-dev
-   
-3. **test Scenario:**
-  signup.feature
+   ```
+3. **test Scenarios file:**
+
+     <a href='signup.feature'>signup.feature</a>
   
-4. **copy signup.cy.js file to cypress/e2e/**
-  '''sh
-  mkdir cypress/e2e
-  cp signup.cy.js cypress/e2e/
+5. **copy signup.cy.js file to cypress/e2e/**
+    ```sh
+     mkdir cypress/e2e
+     cp signup.cy.js cypress/e2e/
+    ```
   
- 
+6. **Open Cypress Test Runner:**
   
-5. **Open Cypress Test Runner:**
-  
-  ```sh 
-  npx cypress open
-  
+     ```sh 
+     npx cypress open
+     ```
   
   5. **run tests**
   
