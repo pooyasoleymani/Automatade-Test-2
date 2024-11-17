@@ -1,7 +1,3 @@
-# singup.feature file and signup.cy.js location
-
-<em> ~/Automatade-Test-2/cypress/e2e</em> 
-
 # Cypress Signup Test Suite
 
 This repository contains a Cypress test suite for testing the signup functionality of a web application.
@@ -16,8 +12,17 @@ This repository contains a Cypress test suite for testing the signup functionali
 
 1. **Clone the repository:**
    ```sh
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/pooyasoleymani/Automatade-Test-2.git
+   cd Automatade-Test-2
+   '''
+2. **Install dependencies:**
+   ```sh
+   npm init
+   '''
+   ```sh
+   npm install cypress --save-dev
+   ```
+
 
 
 
