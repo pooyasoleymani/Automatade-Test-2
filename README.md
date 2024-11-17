@@ -22,17 +22,17 @@ This repository contains a Cypress test suite for testing the signup functionali
    ```sh
    npm install cypress --save-dev
    
-   3. **test Scenario:**
+3. **test Scenario:**
   signup.feature
   
-  4. **copy signup.cy.js file to cypress/e2e/**
+4. **copy signup.cy.js file to cypress/e2e/**
   '''sh
   mkdir cypress/e2e
   cp signup.cy.js cypress/e2e/
   
  
   
-  4. **Open Cypress Test Runner:**
+5. **Open Cypress Test Runner:**
   
   ```sh 
   npx cypress open
